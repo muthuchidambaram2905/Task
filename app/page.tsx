@@ -81,14 +81,14 @@ export default function Home() {
   return (
     <div className="flex h-screen w-screen">
       {/* Sidebar - Desktop (Left) */}
-     <div className="hidden md:flex flex-col absolute left-0 pl-1 top-0 items-start h-full max-h-screen overflow-y-auto hide-scrollbar shadow-xl z-20 w-1/4">
+     <div className="hidden md:flex flex-col absolute left-0 px-2 top-0 items-start h-full max-h-screen overflow-y-auto hide-scrollbar shadow-xl z-20 w-[450px]">
   {/* Logo */}
   <div className="flex justify-start py-6 border-b border-gray-700 w-full">
     <Image src={Logo} alt="App Logo" width={140} height={50} />
   </div>
 
   {/* Content */}
-  <div className="flex flex-col text-white flex-1  py-6 space-y-6 w-full">
+  <div className="flex flex-col text-white flex-1  py-6 space-y-6 ">
     <BaseStation />
     <SystemInfo />
 
