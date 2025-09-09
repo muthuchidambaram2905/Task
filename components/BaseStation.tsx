@@ -20,7 +20,7 @@ export default function BaseStation() {
         </div>
 
       
-        <div className="bg-gray-800 rounded-b-xl px-6 py-2 mb-4">
+        <div className="bg-gray-800 rounded-b-xl px-6 py-2 ">
             <div className="flex items-center gap-4">
               
                 <div className="w-12 h-12 rounded-md bg-gray-600 flex items-center justify-center flex-shrink-0">
